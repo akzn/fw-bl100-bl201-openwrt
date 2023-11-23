@@ -49,6 +49,15 @@ tutorial instalasi openwrt dengan menggunakan script bash, yang dijalankan via w
   > clear cache / hard reload pada chrome mode developer jika tampilan masih asli bolt
 - Login ke OpenWRT sukses dan instalasi berhasil 😁
 
-- Sekian tutorial instalasi openwrt di router bolt BL-100/BL-201 ✨
+## [Optional] Upgrade versi openwrt ke 23.05.1 (versi immortalWRT)
+versi yg dibawa oleh script di atas masih chaos calmer (openwrt 15.05.1). Untuk update ke versi terbaru per tanggal diupdatenya artikel ini, dari peperapa firmware yg support BL 201 adalah immortalWRT.
+[link asli disini](https://firmware-selector.immortalwrt.org/?version=23.05.1&target=ramips%2Fmt7620&id=bolt_bl201)
 
-- Selamat Mengoprek 👍
+- untuk upgrade ke versi 23.05.1, cukup download sysupgrade di repo ini atau langsung ke sumber di atas,
+- lalu upgrade via luci > System > Backup/flash firmware. Di input field "Flash new firmware image". 
+  > !! PERHATIKAN.
+  
+  > Uncheck pilihan "keep configuration" untuk menghapus konfigurasi default.
+  > patikan anda akses ke device melalui port LAN bukan WAN. Jika anda akses melalui port WAN maka tidak akan terdetek jika upgrade berhasil. karena setting berubah default dimana port wan tidak memberikan DHCP
+- tekan tombol proceed dan tunggu beberapa menit, jangan reboot device atau akan bricked
+- jika berhasil, address 192.168.1.1 akan refresh ke halaman login immortalWRT.

@@ -38,6 +38,7 @@ tutorial instalasi openwrt dengan menggunakan script bash, yang dijalankan via w
   ![image](https://github.com/akzn/fw-bl100-bl201-openwrt/assets/40191741/b443f2e9-f340-48be-997f-12192f6af6eb)
 
 - Setelah itu tampilan akan berubah seperti gambar dibawah, anda akan melihat logs dari instalasi openwrt. Silahkan tunggu saja, biasanya instalasi memakan waktu 3 - 5 menit.
+  
   ![image](https://github.com/akzn/fw-bl100-bl201-openwrt/assets/40191741/a017cab2-3553-4772-a478-9570550c725b)
 
 - Jika instalasi sudah selesai maka akan muncul pesan Rebooting dan router akan restart sendiri.

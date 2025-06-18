@@ -27,10 +27,10 @@ echo "95ed514e89bace9726142cde060d9c59"  > /tmp/checksum_breed
     echo -e "Flash Layout : \n\`cat /proc/mtd\`\n"
 
     echo "Downloading OpenWRT ..."
-    wget --content-disposition -O /tmp/openwrt.bin http://ghuseraccess.000webhostapp.com/?url=https://raw.githubusercontent.com/radito/fw-bl100-openwrt/master/openwrt-15.05.1-ramips-mt7620-xiaomi-miwifi-mini-squashfs-sysupgrade.bin
+    wget --content-disposition -O /tmp/openwrt.bin https://raw.githubusercontent.com/radito/fw-bl100-openwrt/master/openwrt-15.05.1-ramips-mt7620-xiaomi-miwifi-mini-squashfs-sysupgrade.bin
     
     echo "Downloading Breed ..."
-    wget --content-disposition -O /tmp/breed.bin http://ghuseraccess.000webhostapp.com/?url=https://raw.githubusercontent.com/radito/fw-bl100-openwrt/master/breed-mt7620-xiaomi-mini.bin
+    wget --content-disposition -O /tmp/breed.bin https://raw.githubusercontent.com/radito/fw-bl100-openwrt/master/breed-mt7620-xiaomi-mini.bin
 
     chmod +x /tmp/openwrt.bin
     chmod +x /tmp/breed.bin
